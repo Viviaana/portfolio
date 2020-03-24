@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7d540d27.chunk.css",
+    "main.js": "/portfolio/static/js/main.c4bdecb3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c4bdecb3.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.daaa44d4.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.daaa44d4.js.map",
+    "static/js/2.163ac616.chunk.js": "/portfolio/static/js/2.163ac616.chunk.js",
+    "static/js/2.163ac616.chunk.js.map": "/portfolio/static/js/2.163ac616.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.0f2bf61c576734fbcf1920dee5ab958a.js": "/portfolio/precache-manifest.0f2bf61c576734fbcf1920dee5ab958a.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.7d540d27.chunk.css.map": "/portfolio/static/css/main.7d540d27.chunk.css.map",
+    "static/js/2.163ac616.chunk.js.LICENSE.txt": "/portfolio/static/js/2.163ac616.chunk.js.LICENSE.txt",
+    "static/media/2playerdice.PNG": "/portfolio/static/media/2playerdice.c0192f92.PNG",
+    "static/media/About.css": "/portfolio/static/media/backgroundplain.b038b653.png",
+    "static/media/Pastprojects.css": "/portfolio/static/media/blossom.53f85fbc.jpg",
+    "static/media/Navbar.css": "/portfolio/static/media/darkerpinkroses.42945683.jpg",
+    "static/media/python.jpeg": "/portfolio/static/media/python.205e0228.jpeg",
+    "static/media/reactclones.jpg": "/portfolio/static/media/reactclones.0ec34439.jpg",
+    "static/media/reddit.jpg": "/portfolio/static/media/reddit.9d3fee50.jpg",
+    "static/media/zen.PNG": "/portfolio/static/media/zen.040f84f6.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daaa44d4.js",
+    "static/js/2.163ac616.chunk.js",
+    "static/css/main.7d540d27.chunk.css",
+    "static/js/main.c4bdecb3.chunk.js"
+  ]
+}
