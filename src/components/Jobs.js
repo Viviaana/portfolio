@@ -9,7 +9,7 @@ export class Jobs extends Component {
             <div className = "page">
             <div className = "jobcontainer">
                 <div className = "experience">
-                    <h3>Work Experience</h3>
+                    <h2>Work Experience</h2>
                     <div className = "contentcontainer">
                         <Toggle />
                 </div>

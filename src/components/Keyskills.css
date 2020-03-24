@@ -1,0 +1,44 @@
+.skillscontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.skill1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: red 1px solid;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px
+}
+
+.skill2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: blue 1px solid;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px
+}
+
+.skill3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: green 1px solid;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px
+}
+
+.skill4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: pink 1px solid;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px
+}

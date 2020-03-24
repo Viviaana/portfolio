@@ -53,16 +53,27 @@ class Toggle extends Component {
 
             <div className = "boxcontainer">
                     {this.state.show === "code" && <div className = "codeNation">
-                        <p>Details of the course with code nation including 3 weeks</p>
+                        <h3>Code Nation - December 2019 to April 2020</h3>
+                        <p>3 week course stuff - languages, projects, skills</p>
+                        <p>apprenticeship stuff - working with music magpie - new languages and skills - mob coding - pledger talks - at home research </p>
                     </div>}
                     {this.state.show === "late" && <div className = "laterooms">
-                        <p>details on how working for a tech company influenced my decision</p>
+                        <h3>LateRooms - August 2016 to August 2019</h3>
+                        <p>tech company - first major company - job description and transferable skills</p>
+                        <p>how i got into tech - interested in IT and how the website worked</p>
+                        <p>using the company going bust as an opportunity to improve myself and go for a job i'd enjoy more</p>
                     </div>}
                     {this.state.show === "purchase1" && <div className = "purchasing">
-                        <p>group iesa and crest together as 7 years in purchasing</p>
+                        <h3>IESA - January 2012 to July 2019</h3>
+                        <p>Working with IESA - key skills, job description, office work</p>
+                        <h3>Crest Medical - May 2010 to December 2011</h3>
+                        <p>Working in crest medical as my first job - challenges, skills, learning on the job, apprenticeship</p>
                     </div>}
                     {this.state.show === "purchase2" && <div className = "purchasing">
-                        <p>group iesa and crest together as 7 years in purchasing</p>
+                    <h3>IESA - January 2012 to July 2019</h3>
+                        <p>Working with IESA - key skills, job description, office work</p>
+                        <h3>Crest Medical - May 2010 to December 2011</h3>
+                        <p>Working in crest medical as my first job - challenges, skills, learning on the job, apprenticeship</p>
                     </div>}
                     {this.state.show === "education" && <div className = "education">
                         <p>college and GCSEs</p>

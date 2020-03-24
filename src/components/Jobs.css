@@ -17,7 +17,7 @@ p, a {
     font-family: 'Poppins', sans-serif;
 }
 
-.experience h3{
+.experience h2{
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
     text-decoration: underline;
@@ -28,6 +28,16 @@ p, a {
     margin-bottom: 0px;
     padding: 50px;
     padding-top: 115px;
+    color: black;
+  }
+  .experience h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
   }
 
 .experience p{
@@ -87,6 +97,14 @@ p, a {
   border: white 3px solid;
   width: 90%;
   height: 600px;
+}
+
+button{
+  border: none;
+  outline: none;
+  background-color: none;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 .page

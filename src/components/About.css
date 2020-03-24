@@ -49,7 +49,7 @@ p, a {
 
   .aboutcontainer{
     height: 100vh;
-  }
+    }
 
   .aboutcontainer {
     background-image: url(./images/backgroundplain.png);
@@ -60,6 +60,33 @@ p, a {
   background-color: rgba(255, 255, 255, 0.308);
 }
 
+.aboutcontent{
+  width: 100%;
+}
+
+.p1{
+  width: 80%
+}
+.p3{
+  width: 80%;
+  margin-left: 100px ;
+}
+
+.p2{
+  width: 80%;
+}
+
+.image img{
+  width: 175px;
+  border-radius: 50%;
+  margin-right: 50px;
+
+}
+
+.imgbox{
+  display: flex;
+  justify-content: flex-end;
+}
 .page
 .fade-enter {
   opacity: 0.01;
