@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Prata|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Yellowtail&display=swap');
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Yellowtail', cursive; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about h3{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 50px;
+  padding-top: 115px;
+}
+.about p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+.abouticon{
+    color: gray;
+  }
+  
+  .abouticon :hover{
+      color: rgb(186, 157, 219);
+  }
+
+  .aboutcontainer{
+    height: 100vh;
+  }
+
+  .aboutcontainer {
+    background-image: url(./images/backgroundplain.png);
+  }
+
+.about{ 
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
+.page
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}

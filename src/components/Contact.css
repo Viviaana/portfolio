@@ -1,0 +1,91 @@
+.contact h3{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 50px;
+  padding-top: 115px;
+}
+.contact{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    height:100vh;    
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .linked a{
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .linked a:hover{
+    padding: 20px;
+    color: #8CB6BB;
+    font-size: 40px;;
+  }
+
+  .git a{
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .git a:hover{
+    padding: 20px;
+    color: #9B97B2;
+    font-size: 40px;;
+  }
+
+  .insta a{
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .insta a:hover{
+    padding: 20px;
+    color: #D8A7CA;
+    font-size: 40px;;
+  }
+
+
+  .page
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}

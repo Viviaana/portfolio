@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+.pythonimg{
+    height:275px; 
+    height:275px; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%
+}
+
+.container p{
+    padding: 10px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: 40%
+}
+
+.slick-dots{
+    position: sticky; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.slick-prev:before
+{
+    opacity: .75;
+    color: rgb(54, 122, 94);
+    font-size: 30px;
+}
+.slick-next:before
+{
+    opacity: .75;
+    color: rgb(54, 122, 94);
+    font-size: 30px;
+}
+
+
+.container h3{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+}
+
+.slick-prev{
+    left: -35px
+}
+

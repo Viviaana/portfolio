@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Prata|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Yellowtail&display=swap');
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Yellowtail', cursive; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.experience h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+    padding-top: 115px;
+  }
+
+.experience p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+.jobcontainer{
+    background-image: linear-gradient(to bottom right, rgb(243, 214, 214), rgb(232, 193, 255));
+    height: 100vh
+}
+.timeWrapper{
+  display: flex;
+}
+
+.timeline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.boxcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  
+}
+
+.codeNation{
+  border: white 3px solid;
+  width: 90%;
+  height: 600px;
+}
+
+.laterooms{
+  border: white 3px solid;
+  width: 90%;
+  height: 600px;
+}
+.purchasing{
+  border: white 3px solid;
+  width: 90%;
+  height: 600px;
+}
+.education{
+  border: white 3px solid;
+  width: 90%;
+  height: 600px;
+}
+.extra{
+  border: white 3px solid;
+  width: 90%;
+  height: 600px;
+}
+
+.page
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
