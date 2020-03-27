@@ -3,6 +3,9 @@
     justify-content: center;
 }
 
+ul{
+    list-style: none;
+}
 .skill1{
     width: 150px;
     height: 150px;
@@ -10,8 +13,27 @@
     border: red 1px solid;
     margin: 10px;
     text-align: center;
-    padding-top: 60px
+    padding-top: 60px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
 }
+.programs{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    border: red 1px solid
+}
+
+.skill1:hover{
+    opacity: 0;
+}
+.skill1:hover+ .programs{
+    opacity: 1
+}
+
 
 .skill2{
     width: 150px;
@@ -20,8 +42,27 @@
     border: blue 1px solid;
     margin: 10px;
     text-align: center;
-    padding-top: 60px
+    padding-top: 60px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
 }
+.languages{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    border: blue 1px solid
+}
+
+.skill2:hover{
+    opacity: 0;
+}
+.skill2:hover+ .languages{
+    opacity: 1
+}
+
 
 .skill3{
     width: 150px;
@@ -30,15 +71,23 @@
     border: green 1px solid;
     margin: 10px;
     text-align: center;
-    padding-top: 60px
+    padding-top: 60px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}
+.personal{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    border: pink 1px solid;
 }
 
-.skill4{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: pink 1px solid;
-    margin: 10px;
-    text-align: center;
-    padding-top: 60px
+.skill3:hover{
+    opacity: 0;
+}
+.skill3:hover+ .personal{
+    opacity: 1
 }
