@@ -37,6 +37,7 @@ p, a {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 30px;
+    font-size: 14px;
 }
 
 .abouticon{
@@ -67,20 +68,27 @@ p, a {
 .p1{
   width: 80%
 }
-.p3{
-  width: 80%;
-  margin-left: 100px ;
-}
-
 .p2{
   width: 80%;
+}
+.p3{
+  width: 80%;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  height: 50px;
+  font-weight: 700;
+}
+.p3 h2{
+  color: black;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .image img{
   width: 175px;
   border-radius: 50%;
   margin-right: 50px;
-
+  margin-top: 30px;
 }
 
 .imgbox{

@@ -3,91 +3,186 @@
     justify-content: center;
 }
 
-ul{
-    list-style: none;
+.skillscontainer h2{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    text-decoration: none;
 }
+
+.skillscontainer p{
+    color: white;
+    font-size: 20px;
+    padding:0;
+}
+
+.first{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    background-image: url(./images/keyboard.jpg);
+    backdrop-filter: blur(10px);
+    background-size: 500px;
+    background-position: center;
+    transition: all .3s ease-in-out;
+}
+
+.first:hover{
+    border-radius:5px;
+    height: 200px;
+    width: 200px;
+    background-image: url(./images/keyboarddarker.jpg);
+}
+
 .skill1{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: red 1px solid;
-    margin: 10px;
+    position: absolute;
     text-align: center;
-    padding-top: 60px;
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out;
-}
-.programs{
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    border: red 1px solid
+    padding-top: 45px;
+    padding-right: 4px;
+    transition: all .3s ease-in-out;
 }
 
-.skill1:hover{
+.first:hover .skill1 {
     opacity: 0;
 }
-.skill1:hover+ .programs{
+
+.programs{
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    transition-delay: 0.2s;
+}
+.programs p{
+    font-size: 12px;
+}
+
+
+.programs:hover + .skill1{
+    opacity: 0
+}
+
+.programs:hover{
     opacity: 1
 }
 
+
+.second{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    background-image: url(./images/coding.jpg);
+    backdrop-filter: blur(10px);
+    background-size: 400px;
+    background-position: center;
+    transition: all .3s ease-in-out;
+}
+
+.second:hover{
+    border-radius:5px;
+    height: 200px;
+    width: 200px;
+    background-image: url(./images/codingdarker.jpg);
+}
 
 .skill2{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: blue 1px solid;
-    margin: 10px;
+    position: absolute;
     text-align: center;
     padding-top: 60px;
+    padding-right: 2px;
     opacity: 1;
-    transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out;
-}
-.languages{
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    border: blue 1px solid
+    transition: all .3s ease-in-out;
 }
 
-.skill2:hover{
+.second:hover .skill2 {
     opacity: 0;
 }
-.skill2:hover+ .languages{
+
+.languages{
+    opacity: 0;
+    text-align: center;
+    margin-top: 5px;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    transition-delay: 0.2s;
+
+}
+
+.languages:hover  .skill2{
+    opacity: 0
+}
+
+.languages:hover{
     opacity: 1
 }
 
+
+.third{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    background-image: url(./images/crochet.jpg);
+    backdrop-filter: blur(10px);
+    background-size: 250px;
+    background-position: center;
+    transition: all .3s ease-in-out;
+}
+.third:hover{
+    border-radius:5px;
+    height: 200px;
+    width: 200px;
+    background-image: url(./images/crochetdarker.jpg);
+}
 
 .skill3{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: green 1px solid;
-    margin: 10px;
+    position: absolute;
     text-align: center;
     padding-top: 60px;
+    padding-right: 2px;
     opacity: 1;
-    transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out;
-}
-.personal{
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    border: pink 1px solid;
+    transition: all .3s ease-in-out;
 }
 
-.skill3:hover{
+.third:hover .skill3 {
     opacity: 0;
 }
-.skill3:hover+ .personal{
+
+.personal{
+    opacity: 0;
+    text-align: center;
+    margin-top: 7px;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    transition-delay: 0.2s;
+}
+
+.personal p{
+    font-size: 15px;
+    margin: 2px;
+    padding: 0px;
+    padding-bottom: 7px;
+}
+.personal:hover{
     opacity: 1
 }
+
+
+

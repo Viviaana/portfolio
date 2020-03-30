@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import './Contact.css'
+import './Contact.css';
+import Form from './Form'
 
 export class Contact extends Component {
     render() {
@@ -11,11 +12,7 @@ export class Contact extends Component {
                 <div className = "contact" id="contact">
                     <h3>Contact</h3>
                     <div className = "email">
-                        <p>Email Me</p>
-                        <p>Your email address</p>
-                        <p>header</p>
-                        <p>Message</p>
-                    <button>send</button>
+                        <Form />
                     </div>
                     <div className = "icons">
                     <div className = "linked">

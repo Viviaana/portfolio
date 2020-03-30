@@ -6,41 +6,39 @@ export class Keyskills extends Component {
         return (
             <div className= "skillscontainer">
                 <div className="first">
-                    <div className="skill1">Software and tools</div>
+                    <div className="skill1"><h2>Software and Tools</h2></div>
                     <div className = "programs">
-                        <ul>
-                            <li>VS Code</li>
-                            <li>Trello</li>
-                            <li>Slack</li>
-                            <li>Github</li>
-                            <li>Microsoft Office</li>
-                            <li>Google Analytics</li>
-                            <li>SAP</li>
-                            <li>Sage</li>
-                            <li>Salesforce</li>
-                        </ul>
+                        <p>VS Code</p>
+                        <p>Trello</p>
+                        <p>Slack</p>
+                        <p>Github</p>
+                        <p>Microsoft Office</p>
+                        <p>Google Analytics</p>
+                        <p>SAP</p>
+                        <p>Sage</p>
+                        <p>Salesforce</p>
                     </div>
                 </div>
                 <div className="second">
-                    <div className="skill2">Languages</div>
+                    <div className="skill2"><h2>Languages</h2></div>
                     <div className = "languages">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Python</li>
-                        </ul>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Javascript</p>
+                        <p>React</p>
+                        <p>Node.js</p>
+                        <p>Python</p>
                     </div>
                 </div>
                 <div className="third">
-                    <div className="skill3">Personal</div>
+                    <div className="skill3"><h2>Personal</h2></div>
                     <div className = "personal">
-                        <ul>
-                            <li>Absolutely Nothing</li>
-                        </ul>
+                        <p>10 years office experience</p>
+                        <p>Great communication skills</p>
+                        <p>Ability to work well under pressure</p>
+                        <p>Qualified First Aider</p>
                     </div>
+
                 </div>
             </div>
         )

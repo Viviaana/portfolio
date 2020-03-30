@@ -19,11 +19,16 @@ export class About extends Component {
                         <img src={profile} alt="profile"/>
                     </div>
                     <div className="p2">
-                        <p> After leaving school I decided to go straight into work and began a career in purchasing, spanning 7 years and 2 companies. I was always determined in each role to strive for the best, thriving on challenges and ensuring every ran as smoothly as possible. </p>
+                        <p> After leaving school I decided to go straight into work and began a career in purchasing, spanning 7 years and 2 companies. I was always determined in each role to strive for the best, thriving on challenges and ensuring every ran as smoothly as possible. 
+                            As my ambitions grew I made the decision to move to a bigger city for more opportunities, settling in Manchester at LateRooms as an Affiliate Account Executive. Working for a large tech company was a huge change and I ended up working more and more with the IT department, troubleshooting issues and working on how to improve the system.
+                            It was fascinating and I ended up spending more time working on the tech side, learning Google Analytics and completely renovating old processes to work more efficiently. Eventually though LateRooms went out of business, but I took that as an opportunity to continue growing within tech and find a career I'd actually enjoy.
+                            This is when I began working with Code Nation, starting on a 3 week developer course where I absolutely fell in love. It finally felt like I was doing something worthwhile and I could definitely see myself taking it further going forward. This lead me to applying for apprenticeships with Code Nation and eventually being successful with Music Magpie.
+                            I'm still at the start of my journey but it's been the best decision I've ever made.
+                        </p>
                     </div>
                     </div>
                     <div className="p3">
-                        <p> KEY SKILLS</p>
+                        <h2>KEY SKILLS</h2>
                         <Keyskills />
                     </div>
                     
