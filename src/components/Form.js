@@ -1,9 +1,12 @@
 import React from 'react';
+import './Contact.css';
+import { AiOutlineMail } from "react-icons/ai";
+
 
 export default class extends React.Component {
   constructor(props) {
 	super(props);
-	this.state = { feedback: '', name: 'Name', email: 'kjingham91@gmail.com' };
+	this.state = { feedback: '', name: '', email: 'kjingham91@gmail.com', title: "Submit" };
 	this.handleChange = this.handleChange.bind(this);
 	this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -12,17 +15,8 @@ export default class extends React.Component {
 	return (
   	<form className="test-mailing">
     	<h2>Drop me an email!</h2>
-        <h3>Please include your contact details</h3>
-    	<div>  
-        <textarea
-        	id="name-mailing"
-        	name="name-mailing"
-        	onChange={this.handleChange}
-        	placeholder="Name"
-        	required
-        	value={this.state.name}
-        	style={{width: '50%', height: '50px'}}
-      	/>
+        <h2>Please include your contact details</h2>
+    	<div className="textbox">  
           <br />
       	<textarea
         	id="message-mailing"
@@ -34,21 +28,29 @@ export default class extends React.Component {
         	style={{width: '50%', height: '150px'}}
       	/>
     	</div>
-    	<input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
+		<div className="btnContainer">
+    	<input type="button" value={this.state.title} className="btn--submit" onClick={this.handleSubmit} />
+		<div className="emailsign"><AiOutlineMail /></div>
+		</div>
   	</form>
 	)
   }
 
   handleChange(event) {
-    this.setState({feedback: event.target.value})
-    this.setState({name: event.target.value})
+	this.setState({feedback: event.target.value})
 
   }
 
+  changeTitle = () => {
+	this.setState({ title: "Thank You" });
+ };
+
+
   handleSubmit (event) {
 	const templateId = 'template_zIWqYaqP';
-
+	this.changeTitle()
 	this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
+
   }
 
   sendFeedback (templateId, variables) {

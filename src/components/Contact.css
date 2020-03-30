@@ -10,8 +10,15 @@
   padding: 50px;
   padding-top: 115px;
 }
+
+.contact h2{
+  padding: 2px;
+  margin: 2px;
+}
 .contact{
-    background-color: gray;
+    background-image: url('./images/greyflowers.jpg');
+    background-size: 100%;
+    background-position: center;
     color: white;
     text-align: center;
     margin:0;
@@ -29,38 +36,59 @@
   .linked a{
     padding: 20px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
   }
   
   .linked a:hover{
     padding: 20px;
     color: #8CB6BB;
-    font-size: 40px;;
+    font-size: 60px;;
   }
 
   .git a{
     padding: 20px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
   }
   
   .git a:hover{
     padding: 20px;
     color: #9B97B2;
-    font-size: 40px;;
+    font-size: 60px;;
   }
 
   .insta a{
     padding: 20px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
   }
   
   .insta a:hover{
     padding: 20px;
     color: #D8A7CA;
-    font-size: 40px;;
+    font-size: 60px;;
   }
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+}
+
+
+.emailsign{
+  background-color: none;
+  color: black;
+  width: 30px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
   .page
@@ -88,4 +116,14 @@
     display: flex;
     flex-direction: row;
     margin: 0px;
+}
+
+
+.btn--submit{
+  background-color: rgb(201, 149, 201);
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
 }
