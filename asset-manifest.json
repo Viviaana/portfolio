@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.db649051.chunk.css",
-    "main.js": "/portfolio/static/js/main.20489235.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.20489235.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.689d9d69.chunk.css",
+    "main.js": "/portfolio/static/js/main.2e27d46a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2e27d46a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.daaa44d4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.daaa44d4.js.map",
     "static/js/2.ab301944.chunk.js": "/portfolio/static/js/2.ab301944.chunk.js",
     "static/js/2.ab301944.chunk.js.map": "/portfolio/static/js/2.ab301944.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.509714825c5c11895841767d1bb07fa6.js": "/portfolio/precache-manifest.509714825c5c11895841767d1bb07fa6.js",
+    "precache-manifest.92cbf8183ae43dcd42a85389a0abd744.js": "/portfolio/precache-manifest.92cbf8183ae43dcd42a85389a0abd744.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.db649051.chunk.css.map": "/portfolio/static/css/main.db649051.chunk.css.map",
+    "static/css/main.689d9d69.chunk.css.map": "/portfolio/static/css/main.689d9d69.chunk.css.map",
     "static/js/2.ab301944.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ab301944.chunk.js.LICENSE.txt",
     "static/media/2playerdice.PNG": "/portfolio/static/media/2playerdice.c0192f92.PNG",
     "static/media/About.css": "/portfolio/static/media/backgroundplain.b038b653.png",
     "static/media/Pastprojects.css": "/portfolio/static/media/blossom.53f85fbc.jpg",
     "static/media/Keyskills.css": "/portfolio/static/media/keyboarddarker.e515b65b.jpg",
     "static/media/Navbar.css": "/portfolio/static/media/darkerpinkroses.42945683.jpg",
-    "static/media/Contact.css": "/portfolio/static/media/greyflowers.9a0560b6.jpg",
+    "static/media/Contact.css": "/portfolio/static/media/greyflowers.c5fd6776.jpg",
     "static/media/pokemon.PNG": "/portfolio/static/media/pokemon.0b085791.PNG",
     "static/media/profile.jpg": "/portfolio/static/media/profile.c38971f2.jpg",
     "static/media/python.jpeg": "/portfolio/static/media/python.205e0228.jpeg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.daaa44d4.js",
     "static/js/2.ab301944.chunk.js",
-    "static/css/main.db649051.chunk.css",
-    "static/js/main.20489235.chunk.js"
+    "static/css/main.689d9d69.chunk.css",
+    "static/js/main.2e27d46a.chunk.js"
   ]
 }
