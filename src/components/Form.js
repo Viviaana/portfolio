@@ -45,10 +45,15 @@ export default class extends React.Component {
 	this.setState({ title: "Thank You" });
  };
 
+ changeMessage = () => {
+	this.setState({ feedback: "Message Sent" });
+ };
+
 
   handleSubmit (event) {
 	const templateId = 'template_zIWqYaqP';
 	this.changeTitle()
+	this.changeMessage()
 	this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
 
   }

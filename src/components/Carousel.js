@@ -47,7 +47,7 @@ export default class SimpleSlider extends Component {
           <div className = "container">
             <h3 className = "carouselheaders">Zen Garden Project</h3>
             <p>Using the Zen Garden Project I was able to massively improve my CSS skills, starting with a basic HTML that couldn't be changed, we were tasked with duplicating the design based off just a static image. At first it seemed complicated as it included a lot of elements I hadn't used before but once I got into it I actually found it quite intuitive and thoroughly enjoyed seeing the page evolve as I learnt more.</p> 
-            <p>I've been able to continue developing CSS based off this and now I'm confident in my ability to style basic pages to match expectations.</p>
+            <p>I've been able to continue developing CSS based off this and now I'm confident in my ability to style basic pages to match expectations and I'm still using the skills I learned from this almost every day.</p>
             <div className = "box">
             <a href = "https://github.com/Viviaana/zengarden">GitHub Page</a>
             <img src = {Zen} className = "pythonimg" alt="top of the design"/>
@@ -67,15 +67,18 @@ export default class SimpleSlider extends Component {
           </div>
           <div className = "container">
             <h3 className = "carouselheaders">React Website Clones</h3>
-            <p></p>
+            <p>In order to practice the basics of React we were tasked with recreating static versions of various websites based off images, similar to the Zen Garden project but starting completely from scratch.
+              This was a really great project to begin React with as it gave me a simple template to work new methods into, such as breaking it down into separate components, without having to begin a new project every time, I could see the new skills working in real time with my own examples. </p>
+            <p>It also helped me learn how to properly group up information using div tags, allowing for certain items to be grouped together but with different styles applied, this would go on to be a great help in future projects.</p>
             <div className = "box">
-            <a href = "https://github.com/Viviaana/3weekcoursepythonGame">GitHub Page</a>
             <img src = {Reactclones} className = "pythonimg" alt="code and first screen of the game"/>
             </div>
           </div>
           <div className = "container">
             <h3 className = "carouselheaders">Reddit Clone</h3>
-            <p></p>
+            <p>For our first group project we decided to give mob programming a try, something we'd never tried before. It ended up working out really well for us as we all knew different little bits of React that we could contribute and no one ended up stuck on one part for too long as we all tackled the issues together. 
+                This was the longest project I had worked on but seeing the progression working so quickly and having a great supportive team really kept us motivated throughout. We kept a photo of the navigation bar we had on the first day before it had been styled as a reminder of just how far we had come, and since then I've tried to do the same with other projects to help track the progression.</p>
+            <p>This was my favourite project to work on as it felt like a much more realistic scenario of working as part of a team on a larger scale, working together with one person driving the code and everyone being able to have an input meant the whole process was smooth and we were able to keep each other going and ensure everyone was taking breaks and keeping on top of work.</p>
             <div className = "box">
             <a href = "https://github.com/roldhamk/reddit-project">GitHub Page</a>
             <img src = {Reddit} className = "pythonimg" alt="homepage"/>
@@ -83,7 +86,9 @@ export default class SimpleSlider extends Component {
           </div>
           <div className = "container">
             <h3 className = "carouselheaders">Pokemon API</h3>
-            <p>Pokemon API</p>
+            <p>When learning to use Node.js to access APIs we were given time to get creative with a range of free APIs available online, so I worked with the Pokemon API to create a page that allows easy viewing of types strengths and weaknesses. 
+              This was a fun project for me as I could add a more personal element to it and I had to work out the specific APIs myself which was good practice. The end result came out better than expected, though it took a lot of extra functions to get it to work properly.</p>
+              <p>I used for loops to generate each element in the array regardless of how many results were returned and I added buttons instead of an input feature as the API used numbers and I wanted the user to select the type by name.</p>
             <div className = "box">
             <a href = "https://github.com/Viviaana/pokemonAPI">GitHub Page</a>
             <img src = {Pokemon} className = "pythonimg" alt="Working API to check Pokemon Stats"/>

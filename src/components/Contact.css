@@ -77,12 +77,12 @@
 
 .emailsign{
   background-color: none;
-  color: black;
+  color: rgb(143, 172, 156);
   width: 30px;
   height: 50px;
   font-weight: 700;
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 30px;
+  margin: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,7 +120,7 @@
 
 
 .btn--submit{
-  background-color: rgb(201, 149, 201);
+  background-color: rgb(172, 167, 189);
   width: 200px;
   height: 50px;
   font-weight: 700;

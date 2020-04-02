@@ -17,8 +17,11 @@ export class Navbar extends Component {
                 </div>
 
                 <div class = "headerbox">
-                    <h1>Katie Ingham</h1>
-                    <h2> Cat lover <GiWhiteCat className = "navicon"/> - Crocheter <GiWool className = "navicon"/> - Axe Thrower <GiFireAxe className = "navicon" /> - Foodie <FaPizzaSlice className = "navicon" /></h2>
+                    <div className="namejob">
+                        <h1>Katie Ingham</h1>
+                        <h2>Junior Software Developer</h2>
+                    </div>
+                    <h2 className = "subheader"> Cat lover <GiWhiteCat className = "navicon"/> - Crocheter <GiWool className = "navicon"/> - Axe Thrower <GiFireAxe className = "navicon" /> - Foodie <FaPizzaSlice className = "navicon" /></h2>
                     <div class = "buttons">
                     <a href ="https://github.com/Viviaana">Github</a>
                 </div>

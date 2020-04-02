@@ -17,14 +17,24 @@ html{
   scroll-behavior: smooth;
 }
 
-.headerbox h1 {
+.namejob{
+  margin-bottom: 50px;
+  margin-top: 75px;
+}
+.namejob h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 90px;
+  margin: 0
 }
-
-.headerbox h2 {
+.namejob h2 {
   font-family: 'Prata', serif;
-  font-size: 14px;
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+}
+.subheader {
+  font-family: 'Prata', serif;
+  font-size: 13px;
 }
 
 .headerbox h3 {

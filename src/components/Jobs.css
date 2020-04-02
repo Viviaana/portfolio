@@ -27,7 +27,7 @@ p, a {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 50px;
-    padding-top: 115px;
+    padding-top: 75px;
     color: black;
   }
   .experience h3{
@@ -51,61 +51,148 @@ p, a {
 }
 
 .jobcontainer{
-    background-image: linear-gradient(to bottom right, rgb(243, 214, 214), rgb(232, 193, 255));
-    height: 100vh
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
 }
+
+
 .timeWrapper{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-position: center;
+  background-size: 100%;
+  margin-top: 60px;
+  width: 100%;
 }
 
 .timeline{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  width: 500px;
 }
 
 .boxcontainer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;  
+  width: 40%;  
+  margin-top: 30px;
 }
 
 .codeNation{
-  border: white 3px solid;
+  border: rgb(255, 209, 209) 3px solid;
+  background-color: rgba(255, 255, 255, 0.747);
   width: 90%;
-  height: 600px;
+  border-radius: 5px;
+  position: relative;
+  right: 500px
+
 }
 
-.laterooms{
-  border: white 3px solid;
-  width: 90%;
-  height: 600px;
+.codeNation p{
+ font-size: 14px;
 }
-.purchasing{
-  border: white 3px solid;
+
+
+.laterooms{
+  border: rgb(157, 214, 191) 3px solid;
+  background-color: rgba(255, 255, 255, 0.747);
   width: 90%;
-  height: 600px;
+  border-radius: 5px;
+  position: relative;
+  right: 200px
+}
+
+.laterooms ul{
+  font-size: 14px;
+}
+
+.purchasing1{
+  border: rgb(228, 200, 245) 3px solid;
+  background-color: rgba(255, 255, 255, 0.747);
+  width: 90%;
+  border-radius: 5px;
+  position: relative;
+  left: 200px
+}
+.purchasing2{
+  border: rgb(228, 200, 245) 3px solid;
+  background-color: rgba(255, 255, 255, 0.747);
+  width: 90%;
+  border-radius: 5px;
+  position: relative;
+  left: 350px
 }
 .education{
-  border: white 3px solid;
+  border: rgb(165, 250, 232) 3px solid;
+  background-color: rgba(255, 255, 255, 0.747);
   width: 90%;
-  height: 600px;
+  border-radius: 5px;
+  position: relative;
+  left: 400px
+
 }
 .extra{
-  border: white 3px solid;
+  border: rgb(236, 188, 188) 3px solid;
+  background-color: rgba(255, 255, 255, 0.747);
   width: 90%;
-  height: 600px;
+  border-radius: 5px;
+  position: relative;
+  left: 500px
 }
 
 button{
   border: none;
   outline: none;
-  background-color: none;
+  background-color: transparent;
+  border-radius: 5px;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 20px;
+  transition: background-color 1s linear ;
 }
+
+button:hover{
+  background-color: grey;
+}
+
+.codeBtn{
+  margin-bottom: 60px;
+  border-bottom: 1px black solid;
+}
+
+
+.lateBtn{
+  margin-top: 80px;
+  border-top: 1px black solid;
+
+}
+.crestBtn{
+  margin-bottom: 60px;
+  border-bottom: 1px black solid;
+}
+.iesaBtn{
+  margin-bottom: 60px;
+  border-bottom: 1px black solid;
+}
+.educationBtn{
+  margin-top: 80px;
+  border-top: 1px black solid;
+
+}
+.extraBtn{
+  margin-bottom: 60px;  
+  border-bottom: 1px black solid;
+}
+
+
+
 
 .page
 .fade-enter {
