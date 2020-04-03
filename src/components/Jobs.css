@@ -27,7 +27,7 @@ p, a {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 50px;
-    padding-top: 75px;
+    padding-top: 25px;
     color: black;
   }
   .timeWrapper h3{
@@ -67,7 +67,7 @@ p, a {
   background-color: rgba(255, 255, 255, 0.8);
   background-position: center;
   background-size: 100%;
-  margin-top: 60px;
+  margin-top: 80px;
   width: 80%;
 }
 
@@ -85,7 +85,7 @@ p, a {
 }
 
 .codeNation{
-  border: rgb(255, 209, 209) 3px solid;
+  border: #FFC9B5 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
   width: 700px;
   border-radius: 5px;
@@ -102,7 +102,7 @@ p, a {
 
 
 .laterooms{
-  border: rgb(157, 214, 191) 3px solid;
+  border: #FFD7C9 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
   width: 600px;
   border-radius: 5px;
@@ -113,7 +113,7 @@ p, a {
 
 
 .purchasing1{
-  border: rgb(228, 200, 245) 3px solid;
+  border: #C7D3BF 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
   width: 600px;
   border-radius: 5px;
@@ -121,7 +121,7 @@ p, a {
 
 }
 .purchasing2{
-  border: rgb(228, 200, 245) 3px solid;
+  border: #C7D3BF 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
   width: 600px;
   border-radius: 5px;
@@ -130,7 +130,7 @@ p, a {
   padding: 5px;
 }
 .education{
-  border: rgb(165, 250, 232) 3px solid;
+  border: #bda3c2 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
   width: 600px;
   border-radius: 5px;
@@ -139,7 +139,7 @@ p, a {
 
 }
 .extra{
-  border: rgb(236, 188, 188) 3px solid;
+  border: #C59B89 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
   width: 600px;
   border-radius: 5px;
@@ -166,7 +166,7 @@ button{
 
 }
 .codeBtn:hover{
-  background-color: rgb(255, 209, 209);
+  background-color: #FFD7C9;
 }
 
 
@@ -175,7 +175,7 @@ button{
   transition: background-color 0.5s linear ;
 }
 .lateBtn:hover{
-  background-color: rgb(157, 214, 191);
+  background-color: #F7B1AB;
 }
 
 .iesaBtn{
@@ -183,7 +183,7 @@ button{
   transition: background-color 0.5s linear ;
 }
 .iesaBtn:hover{
-  background-color: rgb(228, 200, 245);
+  background-color: #C7D3BF;
 }
 
 .crestBtn{
@@ -191,7 +191,7 @@ button{
   transition: background-color 0.5s linear ;
 }
 .crestBtn:hover{
-  background-color: rgb(228, 200, 245);
+  background-color: #C7D3BF;
 }
 
 .educationBtn{
@@ -199,7 +199,7 @@ button{
   transition: background-color 0.5s linear ;
 }
 .educationBtn:hover{
-  background-color: rgb(165, 250, 232);
+  background-color: #bda3c2;
 }
 
 .extraBtn{
@@ -207,7 +207,7 @@ button{
   transition: background-color 0.5s linear ;
 }
 .extraBtn:hover{
-  background-color: rgb(236, 188, 188);
+  background-color: #C59B89;
 }
 
 
