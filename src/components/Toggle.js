@@ -23,22 +23,22 @@ class Toggle extends Component {
               <div className = "timeline">
                 <div className = "codeBtn">
                     <button onClick={e => this.toggle(e.target.name)} name="code">
-                        Code Nation - December 2019 to April 2020
+                        Code Nation
                     </button>   
                 </div>
                 <div className = "lateBtn">
                     <button onClick={e => this.toggle(e.target.name)} name="late">
-                        Laterooms - August 2016 to August 2019
+                        Laterooms
                     </button>    
                 </div>
                 <div className = "iesaBtn">
                     <button onClick={e => this.toggle(e.target.name)} name="purchase1">
-                    IESA - January 2012 to July 2016
+                    IESA
                     </button>    
                 </div>
                 <div className = "crestBtn">
                     <button onClick={e => this.toggle(e.target.name)} name="purchase2">
-                    Crest Medical - May 2010 to December 2011
+                    Crest Medical
                     </button>    
                 </div>
                 <div className = "educationBtn">
@@ -58,6 +58,7 @@ class Toggle extends Component {
                         <h3>Code Nation - December 2019 to April 2020</h3>
                         <p>After leaving Laterooms I decided I wanted to work towards a career I'd really enjoy, so I started learning to code online. After a few months I got in touch with Code Nation to help me further my practice into something I could use professionally. I began working with them on a 3 week develop course, teaching the basics on Python, HTML and CSS and I absolutely fell in love, it finally felt like I was doing something worthwhile, something I could be really good at.
                             I began with a 2 week Python project developing a basic text based adventure game, including learning about the best tools and practices to use when working with code in teams such as Trello and using flowcharts to plan.  </p>
+                        <p>Eager to continue my learning, I applied for an apprenticeship role as this was the best opportunity for me to get into a brand new field, and luckily I was offered to work with Music Magpie. The 12 week bootcamp was incredibly intensive, there was a lot to learn in a very short period of time. But I enjoyed the challenge. We began simple with Javascript, HTML and CSS, later moving on to more complicated projects using React, Node.js and MongoDB. It was a great chance for me to work on more realistic exercises as well as develop skills in working with teams and using the wide range of tools needed. </p>
                     </div>}
                 {this.state.show === "late" && <div className = "laterooms">
                         <h3>LateRooms - August 2016 to August 2019</h3>

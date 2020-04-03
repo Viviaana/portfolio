@@ -8,13 +8,10 @@ export class Jobs extends Component {
         return (
             <div className = "page">
             <div className = "jobcontainer">
-                <div className = "experience">
-                    <div className = "contentcontainer">
                         <Toggle />
                 </div>
              </div>
-            </div>
-            </div>
+
         )
     }
 }

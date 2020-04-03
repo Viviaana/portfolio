@@ -17,7 +17,7 @@ p, a {
     font-family: 'Poppins', sans-serif;
 }
 
-.experience h2{
+.timeWrapper h2{
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
     text-decoration: underline;
@@ -30,7 +30,7 @@ p, a {
     padding-top: 75px;
     color: black;
   }
-  .experience h3{
+  .timeWrapper h3{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     text-decoration: underline;
@@ -40,7 +40,7 @@ p, a {
     padding: 20px;
   }
 
-.experience p{
+.timeWrapper p{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-left: 50px;
@@ -54,7 +54,8 @@ p, a {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: thistle;
+    background-image: url(./images/plainwithtriangles.jpg);
+    background-size: 100%;
 }
 
 
@@ -63,11 +64,11 @@ p, a {
   flex-direction: column;
   align-items: center;
   height: 90vh;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   background-position: center;
   background-size: 100%;
   margin-top: 60px;
-  width: 100%;
+  width: 80%;
 }
 
 .timeline{
@@ -80,70 +81,70 @@ p, a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;  
   margin-top: 30px;
 }
 
 .codeNation{
   border: rgb(255, 209, 209) 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
-  width: 90%;
+  width: 700px;
   border-radius: 5px;
   position: relative;
-  right: 500px
-
+  right: 350px;
+  padding: 0
 }
 
 .codeNation p{
  font-size: 14px;
+ padding: 5px
+
 }
 
 
 .laterooms{
   border: rgb(157, 214, 191) 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
-  width: 90%;
+  width: 600px;
   border-radius: 5px;
   position: relative;
-  right: 200px
+  right: 200px;
+  padding: 5px;
 }
 
-.laterooms ul{
-  font-size: 14px;
-}
 
 .purchasing1{
   border: rgb(228, 200, 245) 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
-  width: 90%;
+  width: 600px;
   border-radius: 5px;
-  position: relative;
-  left: 200px
+  padding: 5px;
+
 }
 .purchasing2{
   border: rgb(228, 200, 245) 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
-  width: 90%;
+  width: 600px;
   border-radius: 5px;
   position: relative;
-  left: 350px
+  left: 200px;
+  padding: 5px;
 }
 .education{
   border: rgb(165, 250, 232) 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
-  width: 90%;
+  width: 600px;
   border-radius: 5px;
   position: relative;
-  left: 400px
+  left: 300px
 
 }
 .extra{
   border: rgb(236, 188, 188) 3px solid;
   background-color: rgba(255, 255, 255, 0.747);
-  width: 90%;
+  width: 600px;
   border-radius: 5px;
   position: relative;
-  left: 500px
+  left: 400px
 }
 
 button{
@@ -155,40 +156,58 @@ button{
   font-size: 17px;
   cursor: pointer;
   padding: 20px;
-  transition: background-color 1s linear ;
+  width: 200px
 }
 
-button:hover{
-  background-color: grey;
-}
 
 .codeBtn{
-  margin-bottom: 60px;
   border-bottom: 1px black solid;
+  transition: background-color 0.5s linear ;
+
+}
+.codeBtn:hover{
+  background-color: rgb(255, 209, 209);
 }
 
 
 .lateBtn{
-  margin-top: 80px;
-  border-top: 1px black solid;
-
-}
-.crestBtn{
-  margin-bottom: 60px;
   border-bottom: 1px black solid;
+  transition: background-color 0.5s linear ;
 }
+.lateBtn:hover{
+  background-color: rgb(157, 214, 191);
+}
+
 .iesaBtn{
-  margin-bottom: 60px;
   border-bottom: 1px black solid;
+  transition: background-color 0.5s linear ;
 }
-.educationBtn{
-  margin-top: 80px;
-  border-top: 1px black solid;
+.iesaBtn:hover{
+  background-color: rgb(228, 200, 245);
+}
 
-}
-.extraBtn{
-  margin-bottom: 60px;  
+.crestBtn{
   border-bottom: 1px black solid;
+  transition: background-color 0.5s linear ;
+}
+.crestBtn:hover{
+  background-color: rgb(228, 200, 245);
+}
+
+.educationBtn{
+  border-bottom: 1px black solid;
+  transition: background-color 0.5s linear ;
+}
+.educationBtn:hover{
+  background-color: rgb(165, 250, 232);
+}
+
+.extraBtn{
+  border-bottom: 1px black solid;
+  transition: background-color 0.5s linear ;
+}
+.extraBtn:hover{
+  background-color: rgb(236, 188, 188);
 }
 
 
