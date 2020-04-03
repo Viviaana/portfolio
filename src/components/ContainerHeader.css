@@ -38,30 +38,35 @@
 .sidebar{
     position: fixed;
     right: 0%;
-    width: 650px;
     padding: 5px;
     margin: 0;
     z-index: 1;
 }
-.colourbox {
+/* .colourbox {
     background-size: 200px;
     background-repeat: repeat;
     overflow: hidden;
-  }
+  } */
   
   .colourbox a {
     float: right;
     color: white;
+    background-color: rgba(97, 90, 97, 0.432);
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
     font-size: 17px;
-    text-shadow:1px 1px 10px rgb(7, 0, 4), 1px 1px 10px rgb(36, 34, 35);}
+    border: 4px white solid;
+    border-radius: 25px;
+    width: 175px;
+    transition: border 0.3s ease-in-out;
+  }
   
   .colourbox a:hover {
     background-color: #ddd;
     color: black;
     text-shadow:1px 1px 10px grey, 1px 1px 10px grey;
+    border: 2px white dotted;
   }
   
   .colourbox a.active {

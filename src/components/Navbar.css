@@ -64,25 +64,7 @@ p, a {
   overflow: hidden;
 }
 
-.navbar a {
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  text-shadow:1px 1px 10px deeppink, 1px 1px 10px deeppink;}
 
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-  text-shadow:1px 1px 10px grey, 1px 1px 10px grey;
-}
-
-.navbar a.active {
-  background-color: #4CAF50;
-  color: black;
-}
 
 .headerbox {
   display: flex;
@@ -92,11 +74,19 @@ p, a {
   height: 90%
 }
 
-.headerbox a{
-  border: 2px solid white;
+.buttons a{
+  border: 3px solid white;
+  border-radius: 25px;
+  width: 160px;
   color: white;
   padding: 10px;
   font-family: 'Prata', serif;
+  transition: border 0.3s ease-in-out
+}
+
+.buttons a:hover{
+  border: 3px dotted white;
+  
 }
 
 .navicon{
